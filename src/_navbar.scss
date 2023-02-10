@@ -1,0 +1,13 @@
+@import "./mixins";
+
+.nav {
+    box-shadow: 0px 1px 5px gray;
+}
+
+.nav__container {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+

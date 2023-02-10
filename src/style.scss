@@ -1,0 +1,23 @@
+@import "./_reset";
+@import "./_navbar";
+
+@mixin media-skelet($up-param, $down-param) {
+    @media (max-width: $up-param) {
+        [class*="__container"] {
+            max-width: $down-param;
+        }
+    }
+};
+
+
+// general
+
+[class*="__container"] {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@include media-skelet(990.98px, 750px);
+
+@include media-skelet(767.98px, none);
