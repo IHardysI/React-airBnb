@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    .hero__container {
+        .hero__photo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 80%;
+                margin: 26px 0px 32px 0px;
+            }
+        }
+        .hero__text {
+            h1 {
+                display: flex;
+                align-items: flex-start;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 110%;
+
+                margin-bottom: 16px;
+            }
+            p {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 110%;
+
+                color: #222222;
+            }
+        }
+    }
+}
+
+
+
+

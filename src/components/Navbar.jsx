@@ -5,14 +5,6 @@ function Navbar() {
         <nav className="nav">
             <div className="nav__container">
                 <img src={logo} alt="logo"></img>
-                <ul>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                </ul>
             </div>
         </nav>
     )

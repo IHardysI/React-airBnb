@@ -1,0 +1,34 @@
+.card {
+    min-width: 177px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    .card__image {
+        width: 100%;
+        height: 235px;
+        border-radius: 9px
+    }
+    .card__stats {
+        display: flex;
+        align-items: center;
+        img {
+            width: 14px;
+        }
+    }
+}
+
+
+.gray {
+    color: gray;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card__list {
+    display: flex;
+    gap: 18px;
+    overflow: scroll;
+}

@@ -1,5 +1,7 @@
 @import "./_reset";
 @import "./_navbar";
+@import "./_hero";
+@import "./_card";
 
 @mixin media-skelet($up-param, $down-param) {
     @media (max-width: $up-param) {
@@ -12,11 +14,16 @@
 
 // general
 
+body {
+    font-family: 'Poppins';
+}
+
 [class*="__container"] {
     max-width: 970px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 
 @include media-skelet(990.98px, 750px);
 
