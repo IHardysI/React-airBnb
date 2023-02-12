@@ -1,7 +1,7 @@
 let arr = [
     {
         id: "1",
-        // img: "/img/card-1.png",
+        img: "https://cdn.pixabay.com/photo/2014/08/20/14/56/woman-422546_1280.jpg",
         starNum: "5.0",
         staples: "(6)",
         p: "Life lessons with Katie Zaferes",
@@ -10,7 +10,7 @@ let arr = [
     },
     {
         id: "2",
-        // img: "../../public/img/card-2.png",
+        img: "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_1280.jpg",
         starNum: "5.0",
         staples: "(30)",
         p: "Learn wedding photography",
@@ -19,7 +19,7 @@ let arr = [
     },
     {
         id: "3",
-        // img: "../../public/img/card-2.png",
+        img: "https://cdn.pixabay.com/photo/2019/05/20/13/20/bike-4216632_1280.jpg",
         starNum: "5.0",
         staples: "(30)",
         p: "Learn wedding photography",
@@ -28,7 +28,7 @@ let arr = [
     },
     {
         id: "4",
-        // img: "../../public/img/card-2.png",
+        img: "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_1280.jpg",
         starNum: "5.0",
         staples: "(30)",
         p: "Learn wedding photography",
@@ -37,7 +37,7 @@ let arr = [
     },
     {
         id: "5",
-        // img: "../../public/img/card-3.png",
+        img: "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_1280.jpg",
         starNum: "4.8",
         staples: "(2)",
         p: "Group Mountain Biking",
